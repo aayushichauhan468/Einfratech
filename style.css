@@ -1,0 +1,10 @@
+.text{
+color: red;
+font-size: 30px;
+background-image: url(https://thumbs.dreamstime.com/b/male-lawyer-working-clients-office-closeup-banner-design-178556778.jpg);
+		}
+		#text{
+			color: green;
+			font-size: 35px;
+			background-color: black;
+		}

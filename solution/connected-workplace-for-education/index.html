@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<link rel="icon" href="/img/logoelnfra.ico?v=2">
+<link rel="icon" href="/img/logoelnfra.ico?v=2">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6190435120809370"
+     crossorigin="anonymous"></script>
+	<meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.html).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="icon" type="image/png" href="../../img/logoelnfra.jpg">
+    <link data-minify="1" rel="stylesheet" href="../../wp-content/cache/min/1/meo7zdz0b57.css?ver=1665047529">
+    
+  
+	<title>Education Facilities Management and IWMS Solutions | einfratechsys</title>
+<meta name="keywords" content="EInfratech Systems, workplace management, facility management, IWMS, connected workplace, Education Facilities Management and IWMS Solutions | einfratechsys" /><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&amp;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&amp;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&amp;display=swap" /></noscript>
+	<meta name="description" content="Learn how Nuvolo provides everything you need to maximize asset performance, operations, &amp; campus experience in a single facilities platform." />
+	<link rel="canonical" href="index.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Connected Workplace for Education" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Connected Workplace for Education" />
+<meta name="twitter:image" content="https://einfratechsys.in/img/logoelnfra.jpg" />
+	<meta property="og:description" content="Learn how einfratechsys provides everything you need to maximize asset performance, operations, &amp; campus experience in a single facilities platform." />
+	<meta property="og:url" content="index.html" />
+
+	
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='stylesheet' id='classic-theme-styles-css' href='../../wp-includes/css/classic-themes.min277b.css?ver=1672698587' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel='stylesheet' id='bigdrop_theme-global-style-css' href='../../wp-content/cache/min/1/wp-content/themes/bigdrop-theme/dist/css/style.min0b57.css?ver=1665047529' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../../wp-content/themes/bigdrop-theme/inc/assets/jquery.min5cca.js?ver=1664963274' id='jquery-js'></script>
+
+		<style type="text/css" id="wp-custom-css">
+			.cwTrademark {
+	position: relative;
+    font-size: 40%;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -1.0em;
+}
+
+.copy_popup {
+	position: relative;
+	font-size: 50%;
+	line-height: 0;
+	vertical-align: baseline;
+	top: -.75em;
+}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body class="" >
+<div class="wrapper " >
+
+      <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "EInfratech Systems India",
+  "url": "https://einfratechsys.in/",
+  "logo": "https://einfratechsys.in/img/logoelnfra.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/company/einfratech-systems-india-private-limited/",
+    "https://www.instagram.com/einfratech.systems/",
+    "https://www.facebook.com/profile.php?id=61595020497292"
+  ]
+}
+</script>
+
+
+<header class="header">
+  <div class="container">
+    <strong class="logo">
+      <a href="/index.html"><img width="134" height="65" src="/img/logoelnfra.jpg" alt="EInfratech Systems India" data-no-lazy="1"></a>
+    </strong>
+    <a href="#" class="btn-menu"><span></span></a>
+    <nav class="menu">
+      <div class="menu-holder">
+        <button class="back-menu">Back to Main Menu</button>
+        <div class="header-search-form">
+          <form action="" method="get">
+            <div class="form-holder">
+              <input name="s" type="text" placeholder="What are you looking for?"/>
+              <button class="submit" type="submit">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.7297 13.5989L11.0257 9.89011C11.9732 8.81868 12.4901 7.41758 12.4901 6.01648C12.4901 2.71978 9.6475 0 6.20196 0C2.75643 0 0 2.8022 0 6.0989C0 9.3956 2.84257 12.1154 6.2881 12.1154C7.58018 12.1154 8.78611 11.7033 9.90591 11.044L13.6099 14.7527C13.7821 14.9176 13.9544 15 14.2128 15C14.3851 15 14.6435 14.9176 14.8158 14.7527C15.0742 14.4231 15.0742 13.9286 14.7297 13.5989ZM6.2881 1.64835C8.87225 1.64835 10.9396 3.62637 10.9396 6.0989C10.9396 8.57143 8.87225 10.5494 6.2881 10.5494C3.70395 10.5494 1.63663 8.57143 1.63663 6.0989C1.63663 3.62637 3.70395 1.64835 6.2881 1.64835Z" fill="black" fill-opacity="0.8"/></svg>
+              </button>
+            </div>
+          </form>
+          <button class="close-form mobile-hidden"></button>
+        </div>
+
+        <ul class="main-nav">
+          <li class="menu-item"><a href="/index.html">Home</a></li>
+          <li class="menu-item"><a href="/about-us/index.html">About</a></li>
+
+          <li class="menu-item-has-children">
+            <a href="#">Solutions</a>
+            <div class="sub-menu solution-menu">
+              <div class="solution-menu-inner">
+                <div class="column solution-menu-info">
+                  <img width="100" height="100" class="icon" src="/img/Connected-Workplace-3.svg" alt="Connected Workplace icon">
+                  <h4 class="title">Connected Workplace</h4>
+                  <p class="sub_title">Our flagship solution – built for the people who manage any workplace</p>
+                  <a href="/solution/connected-workplace/index.html" class="button blue">Explore</a>
+                </div>
+                <div class="column solution-menu-links">
+                  <h4 class="title">Our industry knowledge runs deep. Explore Connected Workplace for</h4>
+                  <ul class="solution-menu-list">
+                    <li><a href="/solution/connected-workplace-for-healthcare/index.html"><img width="465" height="461" src="/img/Connected-Workplace-for-Healthcare.svg" alt="Healthcare" class="menu-icon"><span>Healthcare</span></a></li>
+                    <li><a href="/solution/connected-workplace-for-public-sector/index.html"><img width="465" height="461" src="/img/Connected-Workplace-for-Public-Sector.svg" alt="Public Sector" class="menu-icon"><span>Public Sector</span></a></li>
+                    <li><a href="/solution/connected-workplace-for-retail/index.html"><img width="465" height="461" src="/img/Connected-Workplace-for-Retail.svg" alt="Retail" class="menu-icon"><span>Retail</span></a></li>
+                    <li><a href="/solution/connected-workplace-for-life-sciences/index.html"><img width="465" height="461" src="/img/Connected-Workplace-for-Life-Sciences.svg" alt="Life Sciences" class="menu-icon"><span>Life Sciences</span></a></li>
+                    <li><a href="/solution/connected-workplace-for-education/index.html"><img width="465" height="461" src="/img/Connected-Workplace-for-Education.svg" alt="Education" class="menu-icon"><span>Education</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </li>
+
+          <li class="menu-item-has-children">
+            <a href="/customer-experience/index.html">Customers</a>
+            <div class="sub-menu">
+              <div class="column">
+                <div class="list-links-with-photo">
+                  <div class="item">
+                    <div class="photo-holder"><div data-bg="/img/nuvolo-customer-success-300x200.jpg" class="photo rocket-lazyload"><a href="/customer-experience/customer-success/index.html"></a></div></div>
+                    <div class="title"><a href="/customer-experience/customer-success/index.html">Customer Success</a></div><p></p>
+                  </div>
+                  <div class="item">
+                    <div class="photo-holder"><div data-bg="/img/prof-services-scaled-1-300x200.jpg" class="photo rocket-lazyload"><a href="/customer-experience/professional-services/index.html"></a></div></div>
+                    <div class="title"><a href="/customer-experience/professional-services/index.html">Professional Services</a></div><p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu-item-has-children">
+            <a href="/about-us/index.html">Company</a>
+            <div class="sub-menu">
+              <div class="column">
+                <div class="list-links-with-photo">
+                  <div class="item">
+                    <div class="photo-holder"><div data-bg="/img/contact-us-300x218.jpg" class="photo rocket-lazyload"><a href="/about-us/index.html"></a></div></div>
+                    <div class="title"><a href="/about-us/index.html">About Us</a></div><p></p>
+                  </div>
+                  <div class="item">
+                    <div class="photo-holder"><div data-bg="/img/partners-300x218.jpg" class="photo rocket-lazyload"><a href="/contact/index.html"></a></div></div>
+                    <div class="title"><a href="/contact/index.html">Contact Us</a></div><p></p>
+                  </div>
+                  <div class="item">
+                    <div class="photo-holder"><div data-bg="/img/about-us-300x218.jpg" class="photo rocket-lazyload"><a href="/partners/index.html"></a></div></div>
+                    <div class="title"><a href="/partners/index.html">Partners</a></div><p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu-item"><a href="/blog.html">Blog</a></li>
+          <li class="menu-item"><a href="/contact/index.html">Contact Us</a></li>
+        </ul>
+
+        <button class="search-opener mobile-hidden">
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.7297 13.5989L11.0257 9.89011C11.9732 8.81868 12.4901 7.41758 12.4901 6.01648C12.4901 2.71978 9.6475 0 6.20196 0C2.75643 0 0 2.8022 0 6.0989C0 9.3956 2.84257 12.1154 6.2881 12.1154C7.58018 12.1154 8.78611 11.7033 9.90591 11.044L13.6099 14.7527C13.7821 14.9176 13.9544 15 14.2128 15C14.3851 15 14.6435 14.9176 14.8158 14.7527C15.0742 14.4231 15.0742 13.9286 14.7297 13.5989ZM6.2881 1.64835C8.87225 1.64835 10.9396 3.62637 10.9396 6.0989C10.9396 8.57143 8.87225 10.5494 6.2881 10.5494C3.70395 10.5494 1.63663 8.57143 1.63663 6.0989C1.63663 3.62637 3.70395 1.64835 6.2881 1.64835Z" fill="black" fill-opacity="0.8"/></svg>
+        </button>
+        <a href="/request-a-demo/index.html" class="button request large">Schedule a Demo</a>
+        <a href="https://mail.hostinger.com/?_task=mail&_mbox=INBOX" target="_blank" class="button request large">Employees Webmail</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+    <main class="main ">
+
+
+<div class="container new-banner-industry">
+	<div class="single-page-holder ">
+		<div class="info space-y-4">
+			<div>
+				<div class="hero-industry-title">
+					<div class="hero-industry-img">
+											</div>
+					<p class="sub-title text-eyebrow">Connected Workplace for Education </p>
+				</div>
+				<h1 class="text-h1 leading-none">
+					Keep Your Campus Running Smoothly 				</h1>
+			</div>
+
+			<div class="text-subtext">
+				<p>Maximize asset performance, operations, and student experience in a single solution that spans:</p>
+<ul>
+<li>Operations and maintenance management</li>
+<li>Construction and capital planning projects</li>
+<li>Space management</li>
+<li>Sustainability initiatives</li>
+</ul>
+			</div>
+
+						<div class="btn-container">
+								<a href="../../request-a-demo/index.html"
+										class="button blue
+					large">Schedule a Demo</a>
+
+											</div>
+					</div>
+				<div data-bg="../../img/Connected-Workplace-for-Education.jpg" class="photo rocket-lazyload"
+			style="">
+		</div>
+		
+	</div>
+
+	
+</div>
+
+
+
+<div class="benefits-list section new-benefits-industry">
+	<div class="container">
+		<div class="space-y-8">
+			<div class="space-y-4 max-w-readable mx-auto">
+								<h2 class="text-h2 mb-0">
+					Connect Facilities, Housing, Campus Services, and More 				</h2>
+												<p class="new-benefits-industry--subtitle text-subtext">
+					Reduce your tech stack and gain better insights into your operations by consolidating your campus management systems.				</p>
+							</div>
+
+			<ul class="my-0">
+								<li>
+					<div class="ico-holder">
+												<img width="600" height="600" src="../../wp-content/uploads/2022/11/Nuvolo-Higher-Ed-Solution_Icons-V2_Keep-Campus-Operations-Running-Smoothly-.svg"
+							alt="Optimize Facilities Operations" >
+											</div>
+					<h6>Optimize Facilities Operations					</h6>
+										<p>Track all of your assets and develop comprehensive preventive and corrective maintenance plans</p>
+									</li>
+								<li>
+					<div class="ico-holder">
+												<img width="600" height="600" src="../../wp-content/uploads/2022/11/Nuvolo-Higher-Ed-Solution_Icons-V2_Make-Space-Decisions-More-Confidently.svg"
+							alt="Make Space Decisions With Confidence" >
+											</div>
+					<h6>Make Space Decisions With Confidence					</h6>
+										<p>Get real-time insights into how departments are using your spaces, and better track chargebacks to determine space priorities</p>
+									</li>
+								<li>
+					<div class="ico-holder">
+												<img width="600" height="600" src="../../wp-content/uploads/2022/11/Nuvolo-Higher-Ed-Solution_Icons-V2_Streamline-Construction-and-Capital-Planning-Initiatives-.svg"
+							alt="Streamline Capital Planning Initiatives" >
+											</div>
+					<h6>Streamline Capital Planning Initiatives					</h6>
+										<p>Manage your facility condition assessment process, create capital plan scenarios, and seamlessly create project plans</p>
+									</li>
+							</ul>
+		</div>
+
+		
+	</div>
+</div>
+
+
+<div class="video-block testimonial-new section mt-0 testimonial-new-gradient" style="background: linear-gradient(174deg, rgba(12,54,96, 1) 0%, rgba(41,179,216, 1) 100%);" >
+	<div class="container">
+		<div class="holder">
+			<div data-bg="../../img/higher-education-image-1024x501.jpg" class="video-holder rocket-lazyload" style="">
+								<!-- <a href="#video-popup-999" class="play-button popup-link popup-link-custom">
+					<svg width="23" height="26" viewBox="0 0 23 26" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M14.5 10.134C15.1667 10.5189 15.1667 11.4811 14.5 11.866L5.5 17.0622C4.83333 17.4471 4 16.966 4 16.1962L4 5.80385C4 5.03405 4.83333 4.55292 5.5 4.93782L14.5 10.134Z"
+        fill="white"/>
+</svg>				</a> -->
+				<div class="wrap" id="video-popup-999" style="display: none">
+					<a href="#" class="close-popup" data-id="video-popup-999"></a>
+					<script type="rocketlazyloadscript" src="https://fast.wistia.com/embed/medias/7gil86etsm.jsonp" async></script><script type="rocketlazyloadscript" data-minify="1" src="../../wp-content/cache/min/1/assets/external/E-v13a3f.js?ver=1665047530" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_7gil86etsm videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/7gil86etsm/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="Video thumbnail" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>				</div>
+							</div>
+
+			<div class="info" style="color: rgba(255,255,255, 1)">
+												<h2 class="text-h2">
+					Improve the Way Your Manage Your Campus				</h2>
+												<p class="comment">
+				<div class="text-subtext">
+					Reduce costs and ensure your campus keeps pace with students’ learning expectations. See how in this short video. 				</div>
+				</p>
+								
+											</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="section new-fields_connected bg-grey">
+	<div class="container">
+
+		<div class="row-title max-w-readable">
+			<div class="space-y-4">
+								<h2 class="text-h2"> The Connected Campus</h2>
+												<p class="text-subtext">Whether you’re a large university or a mid-sized institution, we can help you connect all your people, processes, and spaces across your campus.</p>
+							</div>
+		</div>
+				<div class="new-fields_connected__content">
+						<div class="row-content">
+								<div class="content-left">
+					<img width="642" height="617" src="../../wp-content/uploads/2022/11/Nuvolo-Higher-Ed-solution.png"
+						alt="Higher-Ed-solution" >
+				</div>
+								<div class="content-right">
+					<div class="wysiwyg-styles space-y-4">
+						<h4><span class="TextRun SCXW166698138 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW166698138 BCX0"><span class="TextRun SCXW34104128 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW34104128 BCX0">Extend Building and Asset Life</span></span> </span></span></h4>
+<p><span class="TextRun SCXW205902822 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"> <span class="NormalTextRun SCXW205902822 BCX0">I</span><span class="NormalTextRun SCXW205902822 BCX0">mprove asset health and campus facility condition index scores by giving your staff the ability to capture all relevant information in one mobile-friendly platform. Develop maintenance programs that address facility deficiencies and extend asset life.</span></span><span class="EOP SCXW205902822 BCX0" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+					</div>
+														</div>
+
+			</div>
+						<div class="row-content">
+								<div class="content-left">
+					<img width="769" height="515" src="../../wp-content/uploads/2022/11/Nuvolo-Higher-Ed-Solution_InfoSection-V3-1_Make-Empowered-Space-Decisions-1.svg"
+						alt="Higher-Ed-Solution_InfoSection-V3-1_Make-Empowered-Space-Decisions-1" >
+				</div>
+								<div class="content-right">
+					<div class="wysiwyg-styles space-y-4">
+						<h4><span class="NormalTextRun SCXW87414659 BCX0">Make Empowered</span><span class="NormalTextRun SCXW87414659 BCX0"> Space Decisions</span></h4>
+<p><span class="TextRun SCXW7234825 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW7234825 BCX0">Make space decisions more confidently using reliable space survey data that crowdsources real-time metrics from department heads and principal investigators. Easily forecast and plan space allocation across your campus.</span></span><span class="EOP SCXW7234825 BCX0" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"> </span></p>
+					</div>
+														</div>
+
+			</div>
+						<div class="row-content">
+								<div class="content-left">
+					<img width="718" height="628" src="../../wp-content/uploads/2022/11/Proactively-Plan-and-Execute-Capital-Projects.png"
+						alt="Proactively Plan-and-Execute-Capital-Projects" >
+				</div>
+								<div class="content-right">
+					<div class="wysiwyg-styles space-y-4">
+						<h4><span class="TextRun SCXW127744225 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW127744225 BCX0">Proactively Plan For Capital Projects</span></span></h4>
+<p><span class="TextRun SCXW202595934 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW202595934 BCX0" data-ccp-parastyle="paragraph">Track capital needs using condition assessments or lifecycle replacement analyses. Create capital plan scenarios to address these needs and easily manage prioritization and funding. Track the progress as you go.</span></span></p>
+					</div>
+														</div>
+
+			</div>
+						<div class="row-content">
+								<div class="content-left">
+					<img width="770" height="516" src="../../wp-content/uploads/2022/11/A-Solution-for-K-12-Schools.png"
+						alt="A Solution-for-K-12-Schools" >
+				</div>
+								<div class="content-right">
+					<div class="wysiwyg-styles space-y-4">
+						<h4><span class="TextRun SCXW171641218 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW171641218 BCX0">A Solution for K-12 Schools</span></span></h4>
+<p><span data-contrast="none">K-12 schools have different requirements. That’s why we provide a smaller-scale, easy-to-implement solution that offers our </span><span data-contrast="none">core Facilities Maintenance product functionality, including asset management, work order ticketing, and more.</span></p>
+					</div>
+														</div>
+
+			</div>
+						<div class="row-content">
+								<div class="content-left">
+					<img width="770" height="516" src="../../wp-content/uploads/2022/12/Built-on-Now.png"
+						alt="Built on-Now" >
+				</div>
+								<div class="content-right">
+					<div class="wysiwyg-styles space-y-4">
+						<h4><span class="TextRun SCXW262516456 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW262516456 BCX0">We&#8217;re Built on ServiceNow</span></span></h4>
+<p><span class="NormalTextRun SCXW225552795 BCX0">Being built on ServiceNow allows you to</span><span class="NormalTextRun SCXW225552795 BCX0"> extend your existing investment into other lines of business and manage your campus with one solution.</span></p>
+					</div>
+														</div>
+
+			</div>
+					</div>
+			</div>
+
+</div>
+
+
+<div class="section new-fields_servicenow-section bg-grey">
+	<div class="new-fields_servicenow">
+		
+		<img width="1920" height="292" src="../../wp-content/uploads/2022/11/real-estate-demo-bg.png"
+			alt="real estate-demo-bg"
+			class="new-fields_servicenow__bg" >
+		
+		<div class="new-fields_servicenow__content" >
+			<div class="row-title space-y-4 max-w-readable">
+								<h2 class="title"><span
+						class="text-h2">See It In Action</span>
+				</h2>
+												<p class="text-subtext">Contact us for a demo to and begin to reimagine your campus operations. </p>
+							</div>
+						<a href="../../request-a-demo/index.html"
+								class="button blue large">
+				Schedule a Demo			</a>
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="new-fields_icons section">
+	<div class="container">
+		<div class="row">
+			<div class="new-fields_icons--content">
+				<h3>Explore the Products in Connected Workplace for Education</h3>
+<p><span data-contrast="none">Keep your campus running smoothly—all from one place, built on ServiceNow™.</span></p>
+							</div>
+			
+			<div class="new-fields_icons--list-container ">
+				<ul class="new-fields_icons--list">
+										<li>
+												<a href=""
+							class="new-fields_icons--list-inner">
+															<img width="600" height="600"
+								 src="../../wp-content/uploads/2022/12/Maintenance.svg"
+									alt="Maintenance" >								<h5><strong>Facilities Maintenance</strong></h5>														</a>
+											</li>
+															<li>
+												<a href=""
+							class="new-fields_icons--list-inner">
+															<img width="600" height="600"
+								 src="../../wp-content/uploads/2022/12/Space.svg"
+									alt="Space" >								<h5><strong>Space</strong></h5>														</a>
+											</li>
+															<li>
+												<a href=""
+							class="new-fields_icons--list-inner">
+															<img width="600" height="599"
+								 src="../../wp-content/uploads/2022/12/Real-Estate.svg"
+									alt="Real Estate" >								<h5><strong>Real Estate</strong></h5>														</a>
+											</li>
+					<li></li><li></li>										<li>
+												<a href=""
+							class="new-fields_icons--list-inner">
+															<img width="600" height="599"
+								 src="../../wp-content/uploads/2022/12/Projects.svg"
+									alt="Projects" >								<h5><strong>Projects</strong></h5>														</a>
+											</li>
+															<li>
+												<a href=""
+							class="new-fields_icons--list-inner">
+															<img width="600" height="599"
+								 src="../../wp-content/uploads/2022/12/Capital-Planning.svg"
+									alt="Capital Planning" >								<h5><strong>Capital Planning</strong></h5>														</a>
+											</li>
+															<li>
+												<a href=""
+							class="new-fields_icons--list-inner">
+															<img width="600" height="599"
+								 src="../../wp-content/uploads/2022/12/Sustainability.svg"
+									alt="Sustainability" >								<h5><strong>Sustainability</strong></h5>														</a>
+											</li>
+													</div>
+			
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+<style type="text/css">
+	.leading-none {
+		line-height: 1;
+	}
+
+	.mx-auto {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.text-h1 {
+		font-size: 2rem;
+	}
+
+	@media(min-width: 1024px) {
+		.text-h1 {
+			font-size: 3.5rem;
+		}
+	}
+
+	.text-h2 {
+		font-size: 1.67rem;
+	}
+
+	.text-base {
+		font-size: 1rem;
+	}
+
+	.mb-0 {
+		margin-bottom: 0 !important;
+	}
+
+	.mt-0 {
+		margin-top: 0 !important;
+	}
+
+	.my-0 {
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+
+	@media(min-width: 1024px) {
+		.text-h2 {
+			font-size: 2.75rem;
+		}
+	}
+
+	.text-eyebrow {
+		font-size: .67rem;
+		line-height: 1;
+	}
+
+	@media(min-width: 768px) {
+		.text-eyebrow {
+			font-size: 1rem;
+		}
+	}
+
+	@media(min-width: 1024px) {
+		.max-w-readable {
+			max-width: 54rem !important;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.single-page-holder {
+			margin-bottom: 0;
+			padding: 3rem 0;
+		}
+	}
+
+	.section,
+	.new-fields_tabs.section,
+	.latest-posts.new-latest-posts.recent.section,
+	body .wrapper main.main .video-block.testimonial-new.section.testimonial-new-gradient {
+		padding: 3rem 0 !important;
+	}
+
+	body .wrapper main.main .video-block.testimonial-new.section.testimonial-new-gradient+.section {
+		padding-top: 3rem !important;
+	}
+
+	@media (min-width: 1200px) {
+
+		.section,
+		.new-fields_tabs.section,
+		.latest-posts.new-latest-posts.recent.section,
+		body .wrapper main.main .video-block.testimonial-new.section.testimonial-new-gradient {
+			padding: 6rem 0 !important;
+		}
+
+		body .wrapper main.main .video-block.testimonial-new.section.testimonial-new-gradient+.section {
+			padding-top: 6rem !important;
+		}
+
+	}
+
+	.new-banner-industry .text-subtext,
+	.new-banner-industry .text-subtext p,
+	.text-subtext,
+	.text-subtext p,
+	.wysiwyg-styles>p {
+		font-size: 1.1rem;
+		line-height: 1.5;
+	}
+
+	@media (min-width: 1024px) {
+
+		.new-banner-industry .text-subtext,
+		.new-banner-industry .text-subtext p,
+		.text-subtext,
+		.text-subtext p,
+		.wysiwyg-styles>p {
+			font-size: 1.33rem;
+			line-height: 1.5;
+		}
+	}
+
+	.new-banner-industry .info li {
+		line-height: 1.3125;
+	}
+body .new-banner-industry .info ul li::before, .new-fields_connected .row-content .content-right ul li::before, .new-fields_tabs__tabs .row-tab ul li::before, .pillar-main-container .flex-content-area ul li::before {
+		top: 4px;
+	}
+
+@media(min-width: 1024px) {
+	body .new-banner-industry .info ul li::before {
+		top: 6px;
+	}
+}
+
+	@media (min-width: 1024px) {
+.new-banner-industry .info li {
+			line-height: 1.6125;
+		}
+	}
+
+	.wysiwyg-styles>ul>li {
+		font-size: 1rem !important;
+	}
+
+	.space-y-4>*+* {
+		margin-top: 1rem !important;
+		margin-bottom: 0;
+	}
+
+	.space-y-8>*+* {
+		margin-top: 2rem !important;
+		margin-bottom: 0;
+	}
+</style>
+        </main>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="/footer.css">
+<footer class="site-footer">
+  <div class="sf-container">
+    <div class="sf-main">
+
+      <div class="sf-brand">
+        <a href="/index.html" class="sf-logo"><img src="/img/logoelnfra.jpg" alt="EInfratech Systems India"></a>
+        <div class="sf-social">
+          <a href="https://www.linkedin.com/company/einfratech-systems-india-private-limited/posts/?feedView=all" target="_blank" rel="nofollow noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/einfratech.systems/" target="_blank" rel="nofollow noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61595020497292" target="_blank" rel="nofollow noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://x.com/Einfraech90" target="_blank" rel="nofollow noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="sf-col">
+        <p class="sf-title">Solutions</p>
+        <div class="sf-links">
+          <a href="/solution/connected-workplace/index.html">Connected Workplace</a>
+          <a href="/solution/connected-workplace-for-healthcare/index.html">Healthcare</a>
+          <a href="/solution/connected-workplace-for-public-sector/index.html">Public Sector</a>
+          <a href="/solution/connected-workplace-for-retail/index.html">Retail</a>
+          <a href="/solution/connected-workplace-for-life-sciences/index.html">Life Sciences</a>
+          <a href="/solution/connected-workplace-for-education/index.html">Education</a>
+        </div>
+      </div>
+
+      <div class="sf-col">
+        <p class="sf-title">Company</p>
+        <div class="sf-links">
+          <a href="/about-us/index.html">About</a>
+          <a href="/contact/index.html">Contact Us</a>
+          <a href="/blog.html">Blog</a>
+          <a href="/request-a-demo/index.html">Request a Demo</a>
+        </div>
+      </div>
+
+      <div class="sf-col">
+        <p class="sf-title">Legal</p>
+        <div class="sf-links">
+          <a href="/privacy-policy/index.html">Privacy</a>
+          <a href="/cookies.html">Cookies</a>
+          <a href="/terms.html">Terms &amp; Conditions</a>
+          <a href="/disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="sf-bottom"><div class="sf-container"><p>&copy; 2026 EInfratech Systems India Private Limited. All rights reserved.</p></div></div>
+</footer>
+
+<div class="popup">
+    <div class="popup-holder">
+                    <div class="wrap" id="video-popup">
+                <a href="#" class="close"></a>
+                <script type="rocketlazyloadscript" src="https://fast.wistia.com/embed/medias/7gil86etsm.jsonp" async></script><script type="rocketlazyloadscript" data-minify="1" src="../../wp-content/cache/min/1/assets/external/E-v13a3f.js?ver=1665047530" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_7gil86etsm videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/7gil86etsm/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="Video thumbnail" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>            </div>
+        
+<div class="wrap "
+      id="popup-registration" >
+    <a href="#"
+       class="close"></a>
+    <div class="two-column">
+        <div data-bg="https://www.nuvolo.com/wp-content/uploads/2020/04/popup-innfo-bg.png" class="info rocket-lazyload"
+             style="">
+            <h2>Register for <br>Webinar</h2><ul><li>Integer in ipsum lorem. Maecenas sed elementum elementum.</li>
+<li>Elementum elementum maximus eget tincidunt.</li>
+<li>Maecenas sed elementum elementum maximus eget tincidunt.</li>
+<li>Elementum elementum maximus eget tincidunt.</li>
+</ul>        </div>
+        <div class="popup-form">
+            <div class="form">
+                <div class="note">All fields are required*</div><script type="rocketlazyloadscript" data-minify="1" src="../../wp-content/cache/min/1/js/forms2/js/forms2.min3a3f.js?ver=1665047530"></script>
+							<form id="mktoForm_1929"></form>
+							<script type="rocketlazyloadscript">
+								MktoForms2.loadForm("//app-ab24.marketo.com", "494-GLX-336", 1929, function (form) {
+									$(".registration-link").on("click", function (e) {
+										e.preventDefault();
+										let $this = $(this);
+										let date = $this.data("date");
+										let title = $this.data("title");
+
+										form.vals({
+											"webinarTitle": title,
+											"webinarDate": date
+										});
+									});
+
+									form.onSuccess(function () {
+										$(".popup .form").hide();
+										$(".popup .success-holder").show();
+										return false;
+									});
+
+$(".popup").on("click", "label", function (e) {
+                                        e.preventDefault();
+                                        let $this = $(this);
+                                        let forId = $this.attr("for");
+                                        if ($(":checkbox").attr("id", forId).length) {
+                                            if ($this.hasClass("active")) {
+                                                this.checked = false
+                                                $this.removeClass("active");
+                                            } else {
+                                                this.checked = true
+                                                $this.addClass("active");
+                                            }
+                                        }
+                                    });
+									MktoForms2.whenReady(function (form) {
+										window.initCustomSelect(form);
+									});
+								});
+							</script>            </div>
+                            <div class="success-holder">
+                    <div class="h3">Thank you! your material will be arriving in your inbox shortly</div><p>Your subscription has been confirmed. You've been added to our list and will hear
+                from us
+                soon.</p>                    <div class="button ">
+                        <svg width="28" height="20" viewBox="0 0 28 20" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+    <path d="M28 1.68582L8.96 20L0 11.4176L1.76 9.7318L8.96 16.5517L26.24 0L28 1.68582Z"
+          fill="white"/>
+</svg>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div>
+
+    </div>
+</div>
+    </div>
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+
+_linkedin_partner_id = "1576450";
+
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+
+</script><script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+
+(function(l) {
+
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+
+window.lintrk.q=[]}
+
+var s = document.getElementsByTagName("script")[0];
+
+var b = document.createElement("script");
+
+b.type = "text/javascript";b.async = true;
+
+b.src = https://snap.licdn.com/li.lms-analytics/insight.min.js;
+
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+
+</script>
+
+<noscript>
+
+<img height="1" width="1" style="display:none;" alt="" src=https://px.ads.linkedin.com/collect/?pid=1576450&amp;fmt=gif />
+
+</noscript>    <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../../wp-content/themes/bigdrop-theme/dist/js/global.min0e56.js?ver=1664963194' id='global-js'></script>
+<script>window.lazyLoadOptions = {
+                elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }};
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+
+                    mutations.forEach(function(mutation) {
+                        for (i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                return;
+                            }
+
+                           if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                return;
+                            }
+
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            image_count += images.length;
+			                iframe_count += iframes.length;
+			                rocketlazy_count += rocket_lazy.length;
+
+                            if(is_image){
+                                image_count += 1;
+                            }
+
+                            if(is_iframe){
+                                iframe_count += 1;
+                            }
+                        }
+                    } );
+
+                    if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+                        lazyLoadInstance.update();
+                    }
+                } );
+
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+
+                observer.observe(b, config);
+            }
+        }, false);</script><script data-no-minify="1" async src="../../wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script>
+<script type="text/javascript">
+	document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+ 
+}
+</script>
+<style type="text/css">
+	.social{
+		margin-top: 35px;
+	}
+	.main-nav-footer>li.menu-item-has-children button{
+		background: url(../../img/arrow_mobile.svg) no-repeat 50% 50%/15px 12px;
+	}
+	@media screen and (max-width: 768px){
+.social{
+	margin-top: 0px;
+}
+.footer-middle{
+	padding-top: 35px;
+}
+	
+	}
+</style>
+    
+<link rel="stylesheet" href="../../einfra.css">
+<script defer src="../../einfra.js"></script>
+</body>
+
+
+</html>

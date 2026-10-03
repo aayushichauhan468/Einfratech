@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <g>
+    <g>
+      <g>
+        <circle cx="450.1" cy="429.3" r="95.3" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+        <circle cx="450.1" cy="429.3" r="79.4" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      </g>
+      <g>
+        <circle cx="451" cy="428" r="9.7" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+        <line x1="406.7" y1="390.9" x2="443.6" y2="421.7" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      </g>
+      <g>
+        <rect x="429.7" y="309.1" width="40.9" height="11.7" rx="5.8" ry="5.8" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+        <polyline points="442.1 330.4 442.1 320.7 458.2 320.7 458.2 330.4" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      </g>
+      <circle cx="450.1" cy="429.3" r="79.4" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    </g>
+    <g>
+      <line x1="494.1" y1="333.2" x2="515.4" y2="345.4" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <line x1="504.7" y1="339.3" x2="500.3" y2="347" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    </g>
+  </g>
+  <g>
+    <path d="M348.1,472.7H69.1c-8,0-14.5-6.5-14.5-14.5V90c0-8,6.5-14.5,14.5-14.5H437.4c8,0,14.5,6.5,14.5,14.5v200.2" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    <polyline points="336.5 429.5 97.8 429.5 97.8 118.6 408.7 118.6 408.7 321.2" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    <polyline points="170.8 486.6 170.8 501.5 97.8 501.5 97.8 486.6" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    <polyline points="364.6 501.5 335.7 501.5 335.7 486.6" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    <rect x="163.9" y="186.2" width="178.3" height="178.3" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    <g>
+      <path d="M252.9,307c-10.1,0-18.8-5.8-22.9-14.3-4.9,11.2-16,19-29,19s-4.9-.3-7.2-.8c0,.5,0,1.1,0,1.6,0,17.5,14.2,31.6,31.6,31.6s31.6-14.2,31.6-31.6-.2-3.9-.5-5.8c-1.2,.2-2.4,.3-3.6,.3Z" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <path d="M311.8,242.6c-14.3-10-34-6.5-44,7.8-1.3,1.9-2.4,3.9-3.3,6-2.9-12.3,1.8-25.6,12.8-33.2,2-1.4,4.2-2.5,6.4-3.4-.3-.5-.5-.9-.8-1.4-9.9-14.4-29.6-18-44-8.1-14.4,9.9-18,29.6-8.1,44,1.6,2.4,3.5,4.4,5.6,6.2-13.6,1.6-27.1-5.8-32.7-19-1-2.3-1.6-4.6-2-6.9-.5,.2-1,.3-1.5,.6-16.1,6.8-23.6,25.4-16.8,41.5,6.8,16.1,25.4,23.6,41.5,16.8,1.6-.7,3.1-1.5,4.5-2.3-1.2-3-1.9-6.3-1.9-9.7,0-14.1,11.4-25.6,25.6-25.6s25.6,11.4,25.6,25.6,0,.5,0,.8c10.4-6.4,24.1-6.5,34.7,.9,2,1.4,3.8,3,5.4,4.8,.3-.4,.7-.8,1-1.3,10-14.3,6.5-34-7.8-44Z" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <path d="M283.1,283.4c-1.5-.4-3.1-.6-4.6-.7-.5,11.5-8.7,21-19.5,23.6,8.8,7.4,13.3,19.4,10.4,31.5-.6,2.4-1.4,4.7-2.5,6.8,.5,.2,1,.3,1.5,.5,17,4,34.1-6.5,38.1-23.5s-6.5-34-23.5-38.1Z" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    </g>
+  </g>
+</svg>

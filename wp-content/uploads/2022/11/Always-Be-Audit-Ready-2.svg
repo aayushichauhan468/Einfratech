@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <polyline points="331.7 318.2 364.6 360.3 416.8 289.1" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+  <g>
+    <g>
+      <polyline points="404.8 428.3 404.8 523.5 63.4 523.5 63.4 76.5 327.8 76.5" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <line x1="404.8" y1="158.8" x2="404.8" y2="213.3" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <polygon points="404.8 158.8 327.8 158.8 327.8 76.5 404.8 158.8" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    </g>
+    <g>
+      <line x1="128.1" y1="196.7" x2="339.3" y2="196.7" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <line x1="128.1" y1="277.5" x2="268.3" y2="277.5" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <line x1="128.1" y1="353.1" x2="268.3" y2="353.1" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <line x1="128.1" y1="435" x2="339.3" y2="435" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="372.6" cy="320.9" r="84.5" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    <line x1="436.7" y1="376" x2="536.6" y2="461.7" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+  </g>
+</svg>

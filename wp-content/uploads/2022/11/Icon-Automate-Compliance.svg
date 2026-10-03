@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <polyline points="414.3 457.8 414.3 538.8 101.8 538.8 101.8 129.1 146.1 129.1" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+  <polyline points="370.6 129.1 414.3 129.1 414.3 221.8" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+  <g>
+    <g>
+      <polyline points="151.1 235.6 173 252.7 210.5 215.8" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <line x1="240.4" y1="234.2" x2="351.7" y2="234.2" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    </g>
+    <g>
+      <polyline points="151.1 343.5 173 360.6 210.5 323.7" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <line x1="240.4" y1="342.1" x2="297.1" y2="342.1" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    </g>
+    <g>
+      <polyline points="151.1 451.4 173 468.5 210.5 431.6" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+      <line x1="240.4" y1="450" x2="351.7" y2="450" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    </g>
+  </g>
+  <g>
+    <path d="M300.7,98.6c-2.8-21.1-20.8-37.4-42.6-37.4s-39.9,16.3-42.6,37.4h-49.6v62.1h184.5v-62.1h-49.6Z" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+    <circle cx="258.1" cy="112.1" r="13.3" style="fill: none; stroke: #17365d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
+  </g>
+  <g>
+    <path d="M504.2,301.7c4.9,11.6,7.6,24.3,7.6,37.7,0,53.5-43.4,96.9-96.9,96.9s-96.9-43.4-96.9-96.9,43.4-96.9,96.9-96.9,56.6,13.5,74.4,34.8" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8.9px;"/>
+    <polyline points="458.8 278.5 488.3 278.5 490.4 278.5 490.4 246.8" style="fill: none; stroke: #0cb2da; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8.9px;"/>
+  </g>
+</svg>

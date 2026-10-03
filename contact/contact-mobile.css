@@ -1,0 +1,1483 @@
+/* ==========================================================================
+   EInfratech Systems - Contact Page Mobile Showcase & Animations
+   Hero-Integrated Smartphone Mockup & Scroll-Driven Interactions
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. REMOVE WHITE GAP BETWEEN NAVBAR AND HERO
+   -------------------------------------------------------------------------- */
+.main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.contacts-info-block {
+  margin-top: 0 !important;
+  padding: 40px 0 70px !important;
+}
+
+/* --------------------------------------------------------------------------
+   NAVBAR BLUISH BACKGROUND & STATIC FIXED LOGO (Permanently fixed at top 0)
+   -------------------------------------------------------------------------- */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+}
+body {
+  padding-top: 76px !important;
+}
+.wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+}
+
+.header,
+.header.white,
+.header.ei-scrolled,
+.header.fixed,
+.header.scrolled,
+.header.sticky,
+html body header.header,
+html body header.header.white,
+html body header.header.ei-scrolled,
+html body header.header.sticky,
+body.down header.header,
+body.down header.header.sticky {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  margin: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 999999 !important;
+  background: #f0f6fc !important;
+  background: linear-gradient(180deg, #ffffff 0%, #edf5fc 100%) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  box-shadow: 0 4px 20px rgba(0, 36, 108, 0.08) !important;
+  border-bottom: 2px solid #ed2e35 !important;
+  animation: none !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+  transition: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.header .container,
+.header.white .container,
+.header.ei-scrolled .container,
+.header.fixed .container,
+.header.scrolled .container,
+.header.sticky .container,
+html body header.header .container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  max-width: 1610px !important;
+  padding: 8px 40px !important;
+  transition: none !important;
+}
+
+.header .logo,
+.header.white .logo,
+.header.ei-scrolled .logo,
+.header.fixed .logo,
+.header.scrolled .logo,
+.header.sticky .logo,
+.logo,
+html body header.header .logo,
+html body header.header.ei-scrolled .logo,
+body.down header.header .logo {
+  width: auto !important;
+  max-width: fit-content !important;
+  min-width: 0 !important;
+  height: 60px !important;
+  max-height: 60px !important;
+  min-height: 60px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0 0 auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transition: none !important;
+  transform: none !important;
+}
+
+.logo::before,
+.logo::after,
+.header .logo::before,
+.header .logo::after,
+html body header.header .logo::before,
+html body header.header .logo::after {
+  content: none !important;
+  display: none !important;
+}
+
+.header .logo a,
+.header.white .logo a,
+.header.ei-scrolled .logo a,
+.header.fixed .logo a,
+.header.scrolled .logo a,
+.header.sticky .logo a,
+.logo a,
+html body header.header .logo a,
+html body header.header.ei-scrolled .logo a,
+body.down header.header .logo a {
+  position: relative !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 56px !important;
+  max-height: 56px !important;
+  min-height: 56px !important;
+  width: auto !important;
+  padding: 3px 14px !important;
+  background: #ffffff !important;
+  border-radius: 14px !important;
+  box-shadow: 0 0 0 2px rgba(87, 175, 255, 0.45), 0 4px 16px rgba(0, 36, 108, 0.12) !important;
+  box-sizing: border-box !important;
+  transition: none !important;
+  transform: none !important;
+  overflow: visible !important;
+}
+
+.header .logo a::before,
+.header .logo a::after,
+.logo a::before,
+.logo a::after,
+html body header.header .logo a::before,
+html body header.header .logo a::after {
+  content: "" !important;
+  position: absolute !important;
+  inset: -3px !important;
+  border-radius: 17px !important;
+  border: 2px solid rgba(87, 175, 255, 0.95) !important;
+  pointer-events: none !important;
+  animation: eiLogoRing 3s ease-out infinite !important;
+}
+
+.header .logo a::after,
+.logo a::after,
+html body header.header .logo a::after {
+  border-color: rgba(237, 46, 53, 0.9) !important;
+  animation-delay: 1.5s !important;
+}
+
+.header .logo img,
+.header.white .logo img,
+.header.ei-scrolled .logo img,
+.header.fixed .logo img,
+.header.scrolled .logo img,
+.header.sticky .logo img,
+.logo img,
+html body header.header .logo img,
+html body header.header.ei-scrolled .logo img,
+body.down header.header .logo img {
+  height: 50px !important;
+  max-height: 50px !important;
+  min-height: 50px !important;
+  width: auto !important;
+  max-width: none !important;
+  object-fit: contain !important;
+  display: block !important;
+  transition: none !important;
+  transform: none !important;
+}
+
+.header .logo:hover img {
+  transform: none !important;
+}
+
+/* Remove 'All fields are required*' note completely */
+.contacts-form-holder .note {
+  display: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   2. HERO GRID INTEGRATION & STICKY POSITIONING
+   -------------------------------------------------------------------------- */
+.contacts-info-block .holder {
+  display: grid !important;
+  grid-template-columns: 1fr 1.15fr !important;
+  column-gap: 50px !important;
+  row-gap: 20px !important;
+  align-items: start !important;
+  width: 100% !important;
+}
+
+.contacts-info-block .left {
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+.contacts-info-block .ei-mobile-mockup-wrapper {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px 40px;
+  perspective: 1200px;
+  width: 100%;
+}
+
+@media (min-width: 993px) {
+  .contacts-info-block .ei-mobile-mockup-wrapper {
+    position: sticky !important;
+    top: 90px !important;
+    align-self: start !important;
+    z-index: 10;
+  }
+}
+
+.contacts-form-holder {
+  grid-column: 2 !important;
+  grid-row: 1 / span 2 !important;
+  margin: 0 !important;
+}
+
+@media (max-width: 992px) {
+  .contacts-info-block .holder {
+    grid-template-columns: 1fr !important;
+  }
+  .contacts-info-block .left,
+  .contacts-info-block .ei-mobile-mockup-wrapper,
+  .contacts-form-holder {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. MOBILE PHONE MOCKUP
+   -------------------------------------------------------------------------- */
+.ei-phone-container {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  transform-style: preserve-3d;
+  transition: transform 0.2s ease-out;
+  margin: 0 auto;
+}
+
+/* iPhone Chassis */
+.ei-phone-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 2.05;
+  background: #000000;
+  border-radius: 50px;
+  box-shadow:
+    0 0 0 3px #334155,
+    0 0 0 9px #0f172a,
+    0 0 0 11px rgba(255, 255, 255, 0.22),
+    0 30px 60px -10px rgba(0, 0, 0, 0.65),
+    0 40px 80px -15px rgba(12, 54, 96, 0.5);
+  overflow: hidden;
+  border: 3px solid #0f172a;
+  transform: translateZ(0);
+}
+
+/* Side buttons */
+.ei-phone-frame::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 100px;
+  width: 3px;
+  height: 44px;
+  background: #334155;
+  border-radius: 3px 0 0 3px;
+  box-shadow: 0 60px 0 #334155, 0 110px 0 #334155;
+}
+
+.ei-phone-frame::after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 130px;
+  width: 3px;
+  height: 70px;
+  background: #334155;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Screen Glass Surface */
+.ei-phone-screen {
+  position: absolute;
+  inset: 0;
+  border-radius: 46px;
+  background: #f8fafc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Glass reflection shine */
+.ei-screen-reflection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0.03) 40%, transparent 70%);
+  pointer-events: none;
+  z-index: 10;
+  border-radius: 46px 46px 0 0;
+}
+
+/* Dynamic Island & Status Bar */
+.ei-phone-statusbar {
+  position: relative;
+  z-index: 8;
+  height: 46px;
+  padding: 10px 22px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000 !important;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.ei-statusbar-time {
+  letter-spacing: -0.2px;
+  color: #000000 !important;
+  font-weight: 800 !important;
+}
+
+.ei-dynamic-island {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 26px;
+  background: #000000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.ei-dynamic-island-cam {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0d1624;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 0 4px rgba(28, 191, 235, 0.4);
+}
+
+.ei-dynamic-island-indicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #00d084;
+  box-shadow: 0 0 6px #00d084;
+}
+
+.ei-statusbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #000000 !important;
+}
+
+.ei-statusbar-icons i {
+  color: #000000 !important;
+}
+
+/* --------------------------------------------------------------------------
+   4. IN-APP HEADER & CHAT CONTENT (DARK BLACK LEGIBLE TEXT)
+   -------------------------------------------------------------------------- */
+.ei-app-header {
+  position: relative;
+  z-index: 5;
+  background: #ffffff;
+  padding: 10px 16px 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #e2e8f0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.ei-app-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ei-app-avatar {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #0c3660;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(12, 54, 96, 0.25);
+  border: 2px solid #ffffff;
+}
+
+.ei-app-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ei-app-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.ei-app-name {
+  font-size: 13px;
+  font-weight: 800 !important;
+  color: #000000 !important;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 1.2;
+}
+
+.ei-verified-badge {
+  color: #0284c7;
+  font-size: 12px;
+}
+
+.ei-app-status {
+  font-size: 10.5px;
+  color: #047857 !important;
+  font-weight: 700 !important;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ei-app-status-dot {
+  width: 6px;
+  height: 6px;
+  background: #00d084;
+  border-radius: 50%;
+}
+
+.ei-app-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ei-app-icon-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #000000 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.ei-app-icon-btn:hover {
+  background: #0284c7;
+  color: #ffffff !important;
+}
+
+/* Chat Scroll Area - Scrollable with subtle styling */
+.ei-chat-body {
+  position: relative;
+  z-index: 4;
+  flex: 1;
+  padding: 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  overflow-y: auto !important;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Subtle scrollbar inside phone */
+.ei-chat-body::-webkit-scrollbar {
+  width: 4px;
+}
+
+.ei-chat-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ei-chat-body::-webkit-scrollbar-thumb {
+  background: rgba(12, 54, 96, 0.2);
+  border-radius: 4px;
+}
+
+/* Chat Bubbles - DARK BLACK TEXT FOR ULTRA SHARP LEGIBILITY */
+.ei-chat-body,
+.ei-chat-body p,
+.ei-chat-body span,
+.ei-chat-body strong,
+.ei-bubble,
+.ei-bubble *,
+.ei-bubble p,
+.ei-bubble span,
+.ei-bubble strong,
+.ei-bubble-incoming,
+.ei-bubble-incoming *,
+.ei-bubble-incoming p,
+.ei-bubble-incoming span,
+.ei-bubble-incoming strong {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+}
+
+.ei-bubble {
+  position: relative;
+  max-width: 90%;
+  padding: 12px 14px;
+  border-radius: 16px;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ei-bubble p {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+}
+
+.ei-bubble strong {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  font-weight: 800 !important;
+}
+
+/* Incoming Bubble (Pure white with bold black text) */
+.ei-bubble-incoming {
+  align-self: flex-start;
+  background: #ffffff !important;
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-bottom-left-radius: 4px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08) !important;
+}
+
+.ei-bubble-incoming .ei-bubble-time {
+  font-size: 10px !important;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #374151 !important;
+  font-weight: 700 !important;
+}
+
+/* Outgoing Bubble - Soft light-blue background with bold black text */
+.ei-bubble-outgoing {
+  align-self: flex-end;
+  background: #dbeafe !important;
+  color: #000000 !important;
+  border: 1.5px solid #93c5fd !important;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 4px 14px rgba(28, 191, 235, 0.15) !important;
+}
+
+.ei-bubble-outgoing p {
+  color: #000000 !important;
+  font-weight: 600 !important;
+}
+
+.ei-bubble-outgoing .ei-bubble-time {
+  font-size: 10px !important;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  color: #1e3a8a !important;
+  font-weight: 700 !important;
+}
+
+/* Audio Player Waveform Card inside Bubble */
+.ei-audio-card {
+  margin-top: 10px;
+  background: #f1f5f9 !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 12px;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ei-audio-play-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #0284c7;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.ei-audio-play-btn:hover {
+  background: #0369a1;
+  transform: scale(1.08);
+}
+
+.ei-audio-waveform {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex: 1;
+  height: 20px;
+}
+
+.ei-wave-bar {
+  width: 3px;
+  background: #0284c7;
+  border-radius: 2px;
+  transition: height 0.2s ease;
+}
+
+.ei-audio-card.playing .ei-wave-bar {
+  animation: eiWaveAnim 0.8s infinite ease-in-out alternate;
+}
+
+.ei-audio-card.playing .ei-wave-bar:nth-child(2n) { animation-delay: 0.15s; }
+.ei-audio-card.playing .ei-wave-bar:nth-child(3n) { animation-delay: 0.3s; }
+.ei-audio-card.playing .ei-wave-bar:nth-child(4n) { animation-delay: 0.45s; }
+
+@keyframes eiWaveAnim {
+  0% { transform: scaleY(0.4); }
+  100% { transform: scaleY(1.3); }
+}
+
+.ei-audio-duration {
+  font-size: 11px;
+  font-weight: 800 !important;
+  color: #000000 !important;
+  font-family: monospace;
+}
+
+/* Action buttons inside mobile chat - High contrast black text */
+.ei-chat-cta-group {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ei-chat-cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #ffffff !important;
+  border: 1.5px solid #cbd5e1 !important;
+  color: #000000 !important;
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.ei-chat-cta-btn span {
+  color: #000000 !important;
+  font-weight: 700 !important;
+}
+
+.ei-chat-cta-btn:hover {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+  border-color: #0284c7 !important;
+  transform: translateX(3px);
+}
+
+.ei-chat-cta-btn i {
+  color: #0284c7;
+  font-size: 12px;
+}
+
+.ei-chat-cta-btn:hover i,
+.ei-chat-cta-btn:hover span {
+  color: #ffffff !important;
+}
+
+/* Bottom Input Bar on Phone */
+.ei-app-footer-bar {
+  background: #ffffff;
+  padding: 8px 12px 16px;
+  border-top: 1.5px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.ei-chat-input-pill {
+  flex: 1;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+  padding: 7px 12px;
+  font-size: 11px;
+  color: #000000 !important;
+  font-weight: 600 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ei-chat-send-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #1CBFEB;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10.5px;
+  cursor: pointer;
+}
+
+/* Home Indicator Bar */
+.ei-home-indicator {
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110px;
+  height: 4px;
+  background: #000000;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+/* --------------------------------------------------------------------------
+   5. FLOATING GLASSMORPHIC BADGE CARDS
+   -------------------------------------------------------------------------- */
+.ei-floating-badge {
+  position: absolute;
+  z-index: 12;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 14px;
+  padding: 8px 12px;
+  box-shadow:
+    0 14px 30px -4px rgba(12, 54, 96, 0.35),
+    0 4px 10px rgba(0, 0, 0, 0.08),
+    inset 0 1px 1px rgba(255, 255, 255, 0.9);
+  border: 1.5px solid rgba(255, 255, 255, 0.9);
+  color: #0c3660;
+  pointer-events: auto;
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+/* Badge 1: Top-Right (Support Online) */
+.ei-badge-top-right {
+  top: 3%;
+  right: -75px;
+  width: 185px;
+  animation: eiFloat1 4.5s ease-in-out infinite alternate;
+}
+
+/* Badge 2: Middle-Left (Rapid Dispatch + Progress Bar) */
+.ei-badge-mid-left {
+  top: 48%;
+  left: -80px;
+  width: 190px;
+  animation: eiFloat2 5.2s ease-in-out infinite alternate;
+}
+
+/* Badge 3: Bottom-Right (Offices Connected Across 3 Continents) */
+.ei-badge-bot-right {
+  bottom: 4%;
+  right: -75px;
+  width: 185px;
+  animation: eiFloat3 4.8s ease-in-out infinite alternate;
+}
+
+/* Floating Physics Keyframes */
+@keyframes eiFloat1 {
+  0% { transform: translateY(0px) rotate(0deg); }
+  100% { transform: translateY(-12px) rotate(1deg); }
+}
+
+@keyframes eiFloat2 {
+  0% { transform: translateY(0px) rotate(0deg); }
+  100% { transform: translateY(10px) rotate(-1.2deg); }
+}
+
+@keyframes eiFloat3 {
+  0% { transform: translateY(0px) rotate(0deg); }
+  100% { transform: translateY(-10px) rotate(0.8deg); }
+}
+
+/* Badge Content Styling */
+.ei-badge-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.ei-badge-icon-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+.ei-badge-icon-green {
+  background: rgba(0, 208, 132, 0.16);
+  color: #00a86b;
+}
+
+.ei-badge-icon-blue {
+  background: rgba(28, 191, 235, 0.18);
+  color: #1c8fc0;
+}
+
+.ei-badge-icon-purple {
+  background: rgba(12, 54, 96, 0.12);
+  color: #0c3660;
+}
+
+.ei-badge-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.ei-badge-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.ei-badge-subtitle {
+  font-size: 11px;
+  color: #4b5563;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ei-pulse-dot {
+  width: 7px;
+  height: 7px;
+  background: #00d084;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(0, 208, 132, 0.7);
+  animation: eiPulseRing 1.8s infinite;
+  display: inline-block;
+}
+
+@keyframes eiPulseRing {
+  0% { box-shadow: 0 0 0 0 rgba(0, 208, 132, 0.7); }
+  70% { box-shadow: 0 0 0 7px rgba(0, 208, 132, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 208, 132, 0); }
+}
+
+/* Badge Progress Bar */
+.ei-badge-progress-wrap {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ei-badge-progress-bar {
+  flex: 1;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ei-badge-progress-fill {
+  height: 100%;
+  width: 98%;
+  background: linear-gradient(90deg, #1CBFEB 0%, #00d084 100%);
+  border-radius: 10px;
+}
+
+.ei-badge-progress-val {
+  font-size: 10.5px;
+  font-weight: 800;
+  color: #000000;
+}
+
+/* Star Rating & Distance */
+.ei-badge-rating-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7px;
+  padding-top: 7px;
+  border-top: 1px solid #edf2f7;
+}
+
+.ei-badge-stars {
+  color: #fcb900;
+  font-size: 10.5px;
+  display: flex;
+  gap: 2px;
+}
+
+.ei-badge-pill-dist {
+  background: #edf8fc;
+  color: #0284c7;
+  font-weight: 800;
+  font-size: 10px;
+  padding: 3px 7px;
+  border-radius: 12px;
+}
+
+/* --------------------------------------------------------------------------
+   6. RESPONSIVE STYLES
+   -------------------------------------------------------------------------- */
+@media screen and (max-width: 992px) {
+  .contacts-info-block .ei-mobile-mockup-wrapper {
+    position: relative !important;
+    top: auto !important;
+    padding: 10px 10px 35px;
+  }
+
+  .ei-badge-top-right {
+    right: -10px;
+    width: 180px;
+    padding: 9px 12px;
+  }
+
+  .ei-badge-mid-left {
+    left: -15px;
+    width: 195px;
+    padding: 9px 12px;
+  }
+
+  .ei-badge-bot-right {
+    right: -10px;
+    width: 190px;
+    padding: 9px 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ei-phone-container {
+    max-width: 300px;
+  }
+
+  .ei-phone-frame {
+    border-radius: 42px;
+    box-shadow:
+      0 0 0 2px #334155,
+      0 0 0 7px #0f172a,
+      0 20px 45px -10px rgba(0, 0, 0, 0.6);
+  }
+
+  .ei-badge-top-right {
+    top: 3%;
+    right: -5px;
+    width: 165px;
+    padding: 8px 10px;
+  }
+
+  .ei-badge-mid-left {
+    top: 50%;
+    left: -5px;
+    width: 175px;
+    padding: 8px 10px;
+  }
+
+  .ei-badge-bot-right {
+    bottom: 2%;
+    right: -5px;
+    width: 175px;
+    padding: 8px 10px;
+  }
+
+  .ei-bubble {
+    font-size: 11.5px !important;
+    padding: 10px 12px;
+  }
+
+  .ei-bubble p {
+    font-size: 11.5px !important;
+  }
+}
+
+/* Sticky quickbar on mobile */
+@media screen and (max-width: 768px) {
+  .ei-mobile-quickbar {
+    position: fixed;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+    z-index: 999;
+    background: rgba(12, 54, 96, 0.94);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 28px;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    transform: translateY(120px);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .ei-mobile-quickbar.visible {
+    transform: translateY(0);
+  }
+
+  .ei-mobile-quickbar-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-size: 10.5px;
+    font-weight: 600;
+  }
+
+  .ei-mobile-quickbar-btn i {
+    font-size: 15px;
+    color: #1CBFEB;
+  }
+
+  .ei-mobile-quickbar-btn.primary i {
+    color: #00d084;
+  }
+}
+
+/* ==========================================================================
+   INTERACTIVE WORLD MAP & FLOATING LOCATION BADGES (Image 3 Style)
+   ========================================================================== */
+
+.our-offices-section {
+  position: relative;
+  overflow: visible !important;
+}
+
+.offices-map {
+  position: relative;
+}
+
+.ei-map-wrapper {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  overflow: visible !important;
+}
+
+.ei-map-wrapper video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.ei-map-pins-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Individual Location Pin */
+.ei-map-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: auto;
+  z-index: 5;
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), z-index 0.2s ease, opacity 0.3s ease;
+}
+
+/* Pulsing radar wave behind pin */
+.ei-pin-radar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(239, 68, 68, 0.25);
+  transform: translate(-50%, -50%) scale(0.6);
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.ei-map-pin.is-active .ei-pin-radar,
+.ei-map-pin:hover .ei-pin-radar {
+  opacity: 1;
+  animation: eiRadarWave 2.2s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+}
+
+@keyframes eiRadarWave {
+  0% {
+    transform: translate(-50%, -50%) scale(0.6);
+    opacity: 0.95;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2.8);
+    opacity: 0;
+  }
+}
+
+/* Floating Pill Badge (Exact Image 3 DriveBerry Style) */
+.ei-pin-badge {
+  position: relative;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 14px 6px 8px;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1.5px solid #e2e8f0;
+  border-radius: 9999px;
+  box-shadow: 0 4px 16px rgba(12, 54, 96, 0.12), 0 2px 4px rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  white-space: nowrap;
+  user-select: none;
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Pin Icon inside Badge */
+.ei-pin-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fee2e2;
+  color: #ef4444;
+  font-size: 11px;
+  transition: all 0.25s ease;
+}
+
+/* Pin City Label */
+.ei-pin-label {
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.01em;
+  transition: color 0.25s ease;
+}
+
+/* Active and Hover States for Map Pin */
+.ei-map-pin.is-active,
+.ei-map-pin:hover {
+  z-index: 25;
+}
+
+.ei-map-pin.is-active .ei-pin-badge,
+.ei-map-pin:hover .ei-pin-badge {
+  background: #ffffff;
+  border-color: #ef4444;
+  box-shadow: 0 8px 26px rgba(239, 68, 68, 0.28), 0 2px 8px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px) scale(1.08);
+}
+
+.ei-map-pin.is-active .ei-pin-icon,
+.ei-map-pin:hover .ei-pin-icon {
+  background: #ef4444;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.45);
+}
+
+.ei-map-pin.is-active .ei-pin-label,
+.ei-map-pin:hover .ei-pin-label {
+  color: #0c3660;
+}
+
+/* Office Detail Popover Card */
+.ei-pin-popover {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  width: 240px;
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 16px 36px rgba(12, 54, 96, 0.2), 0 4px 10px rgba(0, 0, 0, 0.06);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 30;
+  text-align: left;
+}
+
+/* Little downward triangle tip */
+.ei-pin-popover::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: #ffffff transparent transparent transparent;
+}
+
+.ei-pin-popover::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 7.5px;
+  border-style: solid;
+  border-color: #e2e8f0 transparent transparent transparent;
+}
+
+/* Popover Content */
+.ei-pop-tag {
+  display: inline-block;
+  font-size: 9.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: #eff6ff;
+  color: #0284c7;
+  margin-bottom: 6px;
+}
+
+.ei-pop-title {
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  margin: 0 0 4px !important;
+  line-height: 1.3 !important;
+}
+
+.ei-pop-address {
+  font-size: 11.5px !important;
+  color: #475569 !important;
+  line-height: 1.4 !important;
+  margin: 0 0 10px !important;
+}
+
+.ei-pop-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  color: #0284c7 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+.ei-pop-link:hover {
+  color: #0369a1 !important;
+  text-decoration: underline !important;
+}
+
+/* Show popover on hover or when pin is active */
+.ei-map-pin:hover .ei-pin-popover,
+.ei-map-pin.show-popover .ei-pin-popover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Dim non-active pins when a continent is selected */
+.ei-map-pins-layer.has-active-continent .ei-map-pin:not(.is-active) {
+  opacity: 0.4;
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+.ei-map-pins-layer.has-active-continent .ei-map-pin:not(.is-active):hover {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+/* Responsive adjustments for Map Badges */
+@media screen and (max-width: 992px) {
+  .ei-pin-badge {
+    padding: 4px 10px 4px 6px;
+    gap: 5px;
+  }
+  .ei-pin-icon {
+    width: 18px;
+    height: 18px;
+    font-size: 9.5px;
+  }
+  .ei-pin-label {
+    font-size: 11px;
+  }
+  .ei-pin-popover {
+    width: 200px;
+    padding: 10px 12px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .ei-pin-badge {
+    padding: 3px 7px 3px 5px;
+    gap: 4px;
+  }
+  .ei-pin-icon {
+    width: 15px;
+    height: 15px;
+    font-size: 8px;
+  }
+  .ei-pin-label {
+    font-size: 9.5px;
+  }
+  .ei-pin-popover {
+    width: 180px;
+    padding: 8px 10px;
+  }
+}
+
+/* ==========================================================================
+   DECISIVE OVERRIDES: PURE BLACK CHAT TEXT & EXPANDED OFFICE ACCORDION
+   ========================================================================== */
+
+/* 1. All text inside Phone chat bubbles MUST be 100% Solid Black */
+#ei-bubble-1,
+#ei-bubble-1 *,
+#ei-bubble-1 p,
+#ei-bubble-1 span,
+#ei-bubble-1 strong,
+#ei-bubble-2,
+#ei-bubble-2 *,
+#ei-bubble-2 p,
+#ei-bubble-2 span,
+#ei-bubble-2 strong,
+#ei-bubble-3,
+#ei-bubble-3 *,
+#ei-bubble-3 p,
+#ei-bubble-3 span,
+#ei-bubble-3 strong,
+.ei-chat-body .ei-bubble p,
+.ei-chat-body .ei-bubble span,
+.ei-chat-body .ei-bubble strong {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+}
+
+#ei-bubble-1 p,
+#ei-bubble-1 span {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  font-weight: 600 !important;
+}
+
+/* 2. Offices Accordion: Active Continent Addresses Must Be 100% Visible */
+.our-offices-list .item.active {
+  background: #ffffff !important;
+  border-left: 4px solid #29b3d8 !important;
+  border-radius: 12px !important;
+}
+
+.our-offices-list .item.active .description {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  max-height: none !important;
+  overflow: visible !important;
+  padding: 15px 20px 20px !important;
+}
+
+.our-offices-list .item.active .custom-scroll {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  max-height: 250px !important;
+  overflow-y: auto !important;
+}
+
+.our-offices-list .item.active .addresses-list {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.our-offices-list .item.active .addresses-list li {
+  display: block !important;
+  margin-bottom: 14px !important;
+}
+
+.our-offices-list .item.active .addresses-list p {
+  color: #334155 !important;
+  font-size: 13.5px !important;
+  line-height: 1.5 !important;
+  margin: 0 0 4px !important;
+}
+
+.our-offices-list .item.active .addresses-list a {
+  color: #0284c7 !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+}
