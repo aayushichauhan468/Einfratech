@@ -1,0 +1,1333 @@
+/* ==========================================================================
+   EInfratech Systems - Connected Workplace IWMS Hero Animation
+   Enterprise Workplace Interactive Showcase with Characters & Live Workflows
+   ========================================================================== */
+
+/* Zero-Gap: Eliminate the white gap between navbar and landing page */
+html body main.main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+html body main.main>section.hero-section,
+html body main.main>section.hero-section.with-image,
+html body main.main>section.hero-section.image-overlap,
+section.hero-section {
+  margin-top: -86px !important;
+  padding-top: 96px !important;
+  padding-bottom: 24px !important;
+  position: relative !important;
+  top: 0 !important;
+  min-height: calc(100vh - 80px) !important;
+  display: flex !important;
+  align-items: center !important;
+  overflow: hidden !important;
+}
+
+html body main.main .hero-section .cell,
+html body main.main section.hero-section .cell {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+html body main.main .hero-section.with-image .container,
+html body main.main .hero-section .container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: clamp(24px, 3.2vw, 48px) !important;
+  max-width: 1700px !important;
+  margin: 0 auto !important;
+  padding-top: 10px !important;
+  padding-bottom: 20px !important;
+  padding-left: clamp(20px, 4vw, 56px) !important;
+  padding-right: clamp(20px, 4vw, 56px) !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+@media (max-width: 1024px) {
+
+  html body main.main .hero-section.with-image .container,
+  html body main.main .hero-section .container {
+    flex-direction: column !important;
+    gap: 36px !important;
+  }
+}
+
+/* Enhanced Hero Info (Left Column) - Matched to Image 3 */
+html body main.main .hero-section .info,
+html body main.main section.hero-section .info {
+  flex: 1 1 50% !important;
+  max-width: 760px !important;
+  min-width: 320px !important;
+  width: 100% !important;
+  position: relative;
+  z-index: 5;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  margin-top: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.hero-section .image.ei-iwms-showcase-wrapper {
+  flex: 0 0 auto !important;
+  max-width: 800px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  animation: none !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 1024px) {
+
+  html body main.main .hero-section .info,
+  .hero-section .image.ei-iwms-showcase-wrapper {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
+}
+
+html body main.main .hero-section .info h1 {
+  font-size: clamp(40px, 4vw, 60px) !important;
+  line-height: 1.14 !important;
+  margin-top: 0 !important;
+  margin-bottom: 16px !important;
+  padding-top: 0 !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  letter-spacing: -0.5px !important;
+  max-width: 100% !important;
+}
+
+.ei-h1-l1 {
+  display: block;
+  white-space: nowrap;
+  letter-spacing: -0.4px;
+}
+
+.ei-h1-l2 {
+  display: block;
+  white-space: nowrap;
+  letter-spacing: -0.4px;
+}
+
+html body main.main .hero-section .info h1 strong {
+  background: linear-gradient(90deg, #ff5a52, #7cc2ff, #29b3d8, #ff5a52);
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: eiGradientShift 6s linear infinite;
+  font-weight: 700;
+}
+
+@keyframes eiGradientShift {
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 300% center;
+  }
+}
+
+html body main.main .hero-section .info p.hero-desc {
+  font-size: clamp(16px, 1.25vw, 18px) !important;
+  line-height: 1.62 !important;
+  color: #cce0ff !important;
+  margin-top: 0 !important;
+  margin-bottom: 22px !important;
+  max-width: 760px !important;
+  width: 100% !important;
+}
+
+/* Hero Action CTAs - Stacked vertically matching Image 3 */
+.ei-hero-actions {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  margin-bottom: 22px !important;
+}
+
+.ei-hero-actions .button {
+  padding: 12px 28px !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  text-transform: uppercase !important;
+  border-radius: 999px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  text-decoration: none !important;
+  width: fit-content !important;
+  transition: all 0.25s ease !important;
+}
+
+.ei-hero-actions .button.blue {
+  background: linear-gradient(135deg, #ef3b36, #ff5248) !important;
+  color: #fff !important;
+  box-shadow: 0 8px 24px rgba(239, 59, 54, 0.45) !important;
+}
+
+.ei-hero-actions .button.blue:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(239, 59, 54, 0.6) !important;
+}
+
+.ei-hero-actions .button.outline {
+  background: rgba(14, 43, 85, 0.6) !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(120, 195, 255, 0.35) !important;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22) !important;
+}
+
+.ei-hero-actions .button.outline:hover {
+  background: rgba(255, 255, 255, 0.16) !important;
+  border-color: #7cc2ff !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+
+/* 4 Pillars Quick Badges in Left Column - Single horizontal row matching Image 3 */
+.ei-hero-features-strip {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.ei-feat-chip {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #e2eeff !important;
+  background: rgba(14, 43, 85, 0.75) !important;
+  border: 1px solid rgba(120, 195, 255, 0.3) !important;
+  padding: 6px 13px !important;
+  border-radius: 999px !important;
+  backdrop-filter: blur(8px) !important;
+  white-space: nowrap !important;
+  transition: all 0.25s ease !important;
+  cursor: pointer !important;
+}
+
+.ei-feat-chip:hover,
+.ei-feat-chip.active {
+  background: rgba(41, 179, 216, 0.35) !important;
+  border-color: #38bdf8 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 0 16px rgba(56, 189, 248, 0.4) !important;
+}
+
+.ei-feat-chip i {
+  color: #7cc2ff;
+  font-size: 12px;
+}
+
+/* ==========================================================================
+   TRANSPARENT FLOATING IWMS SHOWCASE STAGE (RIGHT COLUMN)
+   Exact visual match with Image 1
+   ========================================================================== */
+@keyframes eiCardFloat {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.ei-iwms-card {
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  background: radial-gradient(130% 130% at 50% 12%, #08214d 0%, #04122d 70%, #020b1c 100%) !important;
+  border: 1.5px solid rgba(56, 189, 248, 0.32) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 24px 60px rgba(0, 6, 20, 0.65),
+    0 0 50px rgba(14, 165, 233, 0.12),
+    inset 0 1px 1px rgba(255, 255, 255, 0.25) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  padding: 16px 20px 18px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: border-color 0.4s ease, box-shadow 0.4s ease;
+  animation: eiCardFloat 8s ease-in-out infinite;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+.ei-iwms-card:hover {
+  border-color: rgba(140, 220, 255, 0.55) !important;
+  box-shadow: 0 28px 70px rgba(0, 6, 20, 0.75),
+    0 0 60px rgba(14, 165, 233, 0.2),
+    inset 0 1px 2px rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Background Isometric Grid & Floating Particles in Showcase */
+.ei-iwms-bg-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(120, 195, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 195, 255, 0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+  opacity: 0.9;
+  z-index: 0;
+  mask-image: radial-gradient(circle at 50% 50%, black 50%, transparent 95%);
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, black 50%, transparent 95%);
+}
+
+.ei-iwms-glow-orb {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  filter: blur(75px);
+  pointer-events: none;
+  opacity: 0.25;
+  z-index: 0;
+}
+
+.ei-iwms-glow-orb.orb-blue {
+  background: #29b3d8;
+  top: 15%;
+  left: 20%;
+  animation: orbDrift1 12s infinite alternate ease-in-out;
+}
+
+.ei-iwms-glow-orb.orb-coral {
+  background: #ed2e35;
+  bottom: 10%;
+  right: 15%;
+  animation: orbDrift2 14s infinite alternate ease-in-out;
+}
+
+@keyframes orbDrift1 {
+  0% {
+    transform: translate(-20px, -20px) scale(0.9);
+  }
+
+  100% {
+    transform: translate(30px, 20px) scale(1.1);
+  }
+}
+
+@keyframes orbDrift2 {
+  0% {
+    transform: translate(20px, 20px) scale(1);
+  }
+
+  100% {
+    transform: translate(-25px, -15px) scale(1.15);
+  }
+}
+
+/* Showcase Header Bar matching Image 1 */
+.ei-iwms-header {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.ei-header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Green pill badge: LIVE IWMS PLATFORM */
+.ei-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 36, 28, 0.75);
+  border: 1.5px solid #00d084;
+  box-shadow: 0 0 14px rgba(0, 208, 132, 0.35);
+  padding: 6px 12px;
+  border-radius: 999px;
+  cursor: default;
+}
+
+.live-pill-indicator {
+  width: 6px;
+  height: 16px;
+  border-radius: 3px;
+  background: #00d084;
+  box-shadow: 0 0 8px #00d084;
+  animation: eiPillPulse 1.8s infinite;
+}
+
+.live-text-stack {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  font-size: 9.5px;
+  font-weight: 800;
+  color: #4eedb0;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+@keyframes eiPillPulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 0 6px #00d084;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.85;
+    box-shadow: 0 0 14px #00d084;
+  }
+}
+
+.ei-header-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.ei-header-title .title-bold {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13.5px;
+}
+
+.ei-header-title .title-sub {
+  color: #9bb7dd;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* Module Selector Tabs Pill Strip matching Image 1 */
+.ei-module-tabs {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(5, 18, 44, 0.8);
+  border: 1px solid rgba(80, 150, 240, 0.28);
+  border-radius: 999px;
+  padding: 3px 5px;
+}
+
+.ei-tab-btn {
+  background: transparent;
+  border: none;
+  color: #b0ccf0;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.ei-tab-btn:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ei-tab-btn.active {
+  background: linear-gradient(135deg, #0ea5e9, #0284c7) !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 14px rgba(14, 165, 233, 0.6) !important;
+}
+
+.tab-label-stack {
+  display: inline-block;
+  line-height: 1.1;
+  font-size: 10px;
+  text-align: left;
+}
+
+.ei-tab-btn i {
+  font-size: 11px;
+}
+
+/* Auto-play toggle button */
+.ei-play-toggle {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: none !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 9px;
+  transition: all 0.2s ease;
+  margin-left: 2px;
+}
+
+.ei-play-toggle:hover {
+  background: #29b3d8;
+  color: #ffffff;
+  border-color: #29b3d8;
+}
+
+/* ==========================================================================
+   THE WORKPLACE STAGE (CENTER HUB + 4 FLOATING TILES)
+   Exact match with Image 1
+   ========================================================================== */
+.ei-stage-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  min-height: 360px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+/* SVG Connecting Data Highways */
+.ei-data-cables-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.ei-cable-path {
+  fill: none;
+  stroke: rgba(140, 215, 255, 0.35);
+  stroke-width: 1.8;
+  stroke-dasharray: 6 6;
+  animation: cableFlow 20s linear infinite;
+  transition: stroke 0.4s ease, stroke-width 0.4s ease;
+}
+
+.ei-cable-pulse {
+  fill: none;
+  stroke: url(#pulseGrad);
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-dasharray: 35 160;
+  animation: pulseLaser 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes cableFlow {
+  to {
+    stroke-dashoffset: -300;
+  }
+}
+
+@keyframes pulseLaser {
+  0% {
+    stroke-dashoffset: 220;
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    stroke-dashoffset: -220;
+    opacity: 0;
+  }
+}
+
+/* Central Connected Hub matching Image 1 */
+.ei-central-hub {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ei-hub-outer-ring {
+  position: absolute;
+  width: 146px;
+  height: 146px;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(56, 189, 248, 0.45);
+  animation: hubRotate 24s linear infinite;
+}
+
+.ei-hub-outer-ring::before {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #38bdf8;
+  box-shadow: 0 0 10px #38bdf8;
+  top: 75%;
+  left: 12%;
+}
+
+.ei-hub-outer-ring::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #f87171;
+  box-shadow: 0 0 10px #f87171;
+  top: 22%;
+  right: 12%;
+}
+
+.ei-hub-middle-ring {
+  position: absolute;
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  border: 1.2px solid rgba(41, 179, 216, 0.35);
+  box-shadow: 0 0 20px rgba(41, 179, 216, 0.25);
+  animation: hubRotateRev 18s linear infinite;
+}
+
+@keyframes hubRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hubRotateRev {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.ei-hub-core {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #0f4470 0%, #082850 60%, #03142e 100%);
+  border: 2px solid rgba(125, 211, 252, 0.7);
+  box-shadow: 0 0 25px rgba(14, 165, 233, 0.55), inset 0 0 18px rgba(56, 189, 248, 0.45);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 6px;
+  box-sizing: border-box;
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease;
+  animation: hubPulse 4s infinite ease-in-out;
+}
+
+.ei-central-hub:hover .ei-hub-core {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px rgba(14, 165, 233, 0.8), inset 0 0 22px rgba(125, 211, 252, 0.65);
+}
+
+@keyframes hubPulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.45), inset 0 0 14px rgba(56, 189, 248, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 32px rgba(14, 165, 233, 0.7), inset 0 0 20px rgba(56, 189, 248, 0.5);
+  }
+}
+
+.ei-hub-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.ei-hub-title {
+  font-size: 8px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+  line-height: 1.15;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.ei-hub-sub {
+  font-size: 6.8px;
+  font-weight: 700;
+  color: #7dd3fc;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+/* ==========================================================================
+   THE 4 HIGH-VISIBILITY FLOATING CHARACTER TILES
+   Exact visual match with Image 1
+   ========================================================================== */
+.ei-char-card {
+  position: relative;
+  z-index: 3;
+  background: rgba(8, 25, 58, 0.68) !important;
+  border: 1px solid rgba(80, 150, 240, 0.25) !important;
+  border-radius: 16px !important;
+  padding: 12px 14px !important;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) !important;
+  backdrop-filter: blur(14px) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  box-shadow: 0 8px 24px rgba(0, 6, 20, 0.4);
+  overflow: hidden;
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.ei-char-card:hover,
+.ei-char-card.active {
+  background: rgba(12, 38, 86, 0.88) !important;
+  transform: translateY(-2px) scale(1.01) !important;
+}
+
+/* Quadrant Specific Border Accents matching Image 1 */
+.ei-char-card.card-facilities {
+  border: 1.5px solid rgba(56, 189, 248, 0.42) !important;
+  box-shadow: 0 8px 24px rgba(0, 6, 20, 0.4), inset 0 0 20px rgba(56, 189, 248, 0.08) !important;
+}
+
+.ei-char-card.card-facilities:hover,
+.ei-char-card.active.card-facilities {
+  border-color: #38bdf8 !important;
+  box-shadow: 0 12px 32px rgba(0, 8, 28, 0.55), 0 0 25px rgba(56, 189, 248, 0.35) !important;
+}
+
+.ei-char-card.card-maintenance {
+  border: 1.5px solid rgba(245, 158, 11, 0.42) !important;
+  box-shadow: 0 8px 24px rgba(0, 6, 20, 0.4), inset 0 0 20px rgba(245, 158, 11, 0.08) !important;
+}
+
+.ei-char-card.card-maintenance:hover,
+.ei-char-card.active.card-maintenance {
+  border-color: #fbbf24 !important;
+  box-shadow: 0 12px 32px rgba(0, 8, 28, 0.55), 0 0 25px rgba(251, 191, 36, 0.35) !important;
+}
+
+/* Bright green vertical left line accent on Sarah's card matching Image 1 */
+.ei-char-card.card-space {
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
+  border-left: 3.5px solid #10b981 !important;
+  box-shadow: 0 8px 24px rgba(0, 6, 20, 0.4), inset 0 0 20px rgba(16, 185, 129, 0.08) !important;
+}
+
+.ei-char-card.card-space:hover,
+.ei-char-card.active.card-space {
+  border-color: #34d399 !important;
+  border-left: 4px solid #10b981 !important;
+  box-shadow: 0 12px 32px rgba(0, 8, 28, 0.55), 0 0 25px rgba(52, 211, 153, 0.35) !important;
+}
+
+/* Bright red vertical left line accent on Alex's card matching Image 1 */
+.ei-char-card.card-realestate {
+  border: 1px solid rgba(239, 68, 68, 0.3) !important;
+  border-left: 3.5px solid #ef4444 !important;
+  box-shadow: 0 8px 24px rgba(0, 6, 20, 0.4), inset 0 0 20px rgba(239, 68, 68, 0.08) !important;
+}
+
+.ei-char-card.card-realestate:hover,
+.ei-char-card.active.card-realestate {
+  border-color: #f87171 !important;
+  border-left: 4px solid #ef4444 !important;
+  box-shadow: 0 12px 32px rgba(0, 8, 28, 0.55), 0 0 25px rgba(248, 113, 113, 0.35) !important;
+}
+
+/* Character Avatar Illustration Area */
+.ei-char-visual {
+  position: relative;
+  flex: 0 0 74px;
+  width: 74px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.45));
+}
+
+.ei-char-svg {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.35s ease;
+}
+
+.ei-char-card:hover .ei-char-svg,
+.ei-char-card.active .ei-char-svg {
+  transform: scale(1.06);
+}
+
+/* Micro-animations inside Character SVGs */
+@keyframes charBreathe {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes tabletGlow {
+
+  0%,
+  100% {
+    opacity: 0.85;
+    filter: drop-shadow(0 0 3px #29b3d8);
+  }
+
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px #7cc2ff);
+  }
+}
+
+@keyframes chartGrow {
+
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(1.18);
+  }
+}
+
+.anim-breathe {
+  animation: charBreathe 3.5s infinite ease-in-out;
+}
+
+.anim-tablet {
+  animation: tabletGlow 2.5s infinite ease-in-out;
+}
+
+.anim-chart {
+  animation: chartGrow 3s infinite ease-in-out;
+  transform-origin: bottom;
+}
+
+/* Character Details - High Contrast Typography matching Image 1 & 2 */
+.ei-char-info {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ei-char-role-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 3.5px 9px;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.card-facilities .ei-char-role-badge {
+  background: rgba(14, 52, 94, 0.75) !important;
+  color: #7dd3fc !important;
+  border: 1px solid rgba(56, 189, 248, 0.45) !important;
+}
+
+.card-maintenance .ei-char-role-badge {
+  background: rgba(56, 40, 10, 0.75) !important;
+  color: #fde047 !important;
+  border: 1px solid rgba(245, 158, 11, 0.45) !important;
+}
+
+.card-space .ei-char-role-badge {
+  background: rgba(6, 45, 32, 0.75) !important;
+  color: #6ee7b7 !important;
+  border: 1px solid rgba(16, 185, 129, 0.45) !important;
+}
+
+.card-realestate .ei-char-role-badge {
+  background: rgba(55, 15, 20, 0.75) !important;
+  color: #fca5a5 !important;
+  border: 1px solid rgba(239, 68, 68, 0.45) !important;
+}
+
+/* Titles colored to match each pillar as seen in Image 1 & 2 */
+html body main.main .hero-section .ei-char-card h3,
+html body main.main .hero-section .ei-char-card .ei-char-title,
+.hero-section .ei-char-title,
+.ei-char-card .ei-char-title,
+h3.ei-char-title {
+  font-size: 15.5px !important;
+  font-weight: 700 !important;
+  margin: 3px 0 2px 0 !important;
+  line-height: 1.25 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7) !important;
+  letter-spacing: 0.2px !important;
+}
+
+.card-facilities .ei-char-title {
+  color: #38bdf8 !important;
+}
+
+.card-maintenance .ei-char-title {
+  color: #fbbf24 !important;
+}
+
+.card-space .ei-char-title {
+  color: #34d399 !important;
+}
+
+.card-realestate .ei-char-title {
+  color: #f87171 !important;
+}
+
+/* Crisp description text */
+html body main.main .hero-section .ei-char-card p,
+html body main.main .hero-section .ei-char-card .ei-char-desc,
+.hero-section .ei-char-desc,
+.ei-char-card .ei-char-desc,
+p.ei-char-desc {
+  color: #cbd5e1 !important;
+  font-size: 11.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.38 !important;
+  margin: 0 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+  opacity: 1 !important;
+}
+
+/* Bottom status pill tag */
+.ei-char-live-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(3, 14, 36, 0.85) !important;
+  border: 1px solid rgba(140, 215, 255, 0.22) !important;
+  padding: 3.5px 10px !important;
+  border-radius: 999px !important;
+  font-size: 10.5px !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  margin-top: 3px !important;
+  width: fit-content;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+.card-facilities .ei-char-live-chip {
+  border-color: rgba(56, 189, 248, 0.3) !important;
+}
+
+.card-maintenance .ei-char-live-chip {
+  border-color: rgba(251, 191, 36, 0.3) !important;
+}
+
+.card-space .ei-char-live-chip {
+  border-color: rgba(52, 211, 153, 0.3) !important;
+}
+
+.card-realestate .ei-char-live-chip {
+  border-color: rgba(248, 113, 113, 0.3) !important;
+}
+
+.ei-char-live-chip span {
+  color: #ffffff !important;
+}
+
+.ei-char-live-chip .chip-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.card-facilities .chip-dot {
+  background: #38bdf8;
+  box-shadow: 0 0 6px #38bdf8;
+}
+
+.card-maintenance .chip-dot {
+  background: #fbbf24;
+  box-shadow: 0 0 6px #fbbf24;
+}
+
+.card-space .chip-dot {
+  background: #34d399;
+  box-shadow: 0 0 6px #34d399;
+}
+
+.card-realestate .chip-dot {
+  background: #f87171;
+  box-shadow: 0 0 6px #f87171;
+}
+
+/* ==========================================================================
+   INTERACTIVE ROLE DETAIL MODAL DRAWER
+   ========================================================================== */
+.ei-role-modal {
+  position: absolute;
+  inset: 14px;
+  background: radial-gradient(120% 120% at 50% 10%, rgba(10, 36, 78, 0.98) 0%, rgba(4, 18, 44, 0.98) 100%);
+  border: 1.5px solid rgba(140, 220, 255, 0.5);
+  border-radius: 20px;
+  z-index: 10;
+  padding: 26px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(25px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 50px rgba(41, 179, 216, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.95);
+  transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.ei-role-modal.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+
+.ei-modal-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.ei-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ei-modal-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.ei-modal-icon.fac {
+  background: linear-gradient(135deg, #1c8fc0, #0c4e85);
+  color: #fff;
+}
+
+.ei-modal-icon.maint {
+  background: linear-gradient(135deg, #f59e0b, #b45309);
+  color: #fff;
+}
+
+.ei-modal-icon.space {
+  background: linear-gradient(135deg, #10b981, #047857);
+  color: #fff;
+}
+
+.ei-modal-icon.re {
+  background: linear-gradient(135deg, #ed2e35, #991b1b);
+  color: #fff;
+}
+
+.ei-modal-titles h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff !important;
+  margin: 0 0 4px;
+}
+
+.ei-modal-titles p {
+  font-size: 13px;
+  color: #7cc2ff !important;
+  margin: 0;
+  font-weight: 600;
+}
+
+.ei-modal-close {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.ei-modal-close:hover {
+  background: #ed2e35;
+  border-color: #ed2e35;
+}
+
+.ei-modal-body {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ei-modal-desc {
+  font-size: 13.5px;
+  color: #d1e2fc !important;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.ei-modal-benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.ei-ben-item {
+  background: rgba(14, 43, 90, 0.6);
+  border: 1px solid rgba(87, 175, 255, 0.2);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+}
+
+.ei-ben-item strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.ei-ben-item span {
+  font-size: 11px;
+  color: #9cbff5;
+}
+
+.ei-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ei-modal-footer .button {
+  padding: 10px 22px !important;
+  font-size: 13.5px !important;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN FOR LAPTOPS, TABLETS & MOBILE
+   ========================================================================== */
+@media (max-width: 1280px) and (min-width: 1025px) {
+
+  html body main.main .hero-section.with-image .container,
+  html body main.main .hero-section .container {
+    gap: 24px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  html body main.main .hero-section .info {
+    flex: 0 1 48% !important;
+    max-width: 720px !important;
+  }
+
+  html body main.main .hero-section .info h1 {
+    font-size: 36px !important;
+    line-height: 1.15 !important;
+  }
+
+  html body main.main .hero-section .info p.hero-desc {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+  }
+
+  .hero-section .image.ei-iwms-showcase-wrapper {
+    flex: 1 1 52% !important;
+    max-width: 640px !important;
+  }
+
+  .ei-iwms-card {
+    padding: 14px 16px !important;
+    gap: 12px !important;
+  }
+
+  .ei-stage-container {
+    min-height: 330px !important;
+    gap: 10px !important;
+  }
+
+  .ei-char-card {
+    padding: 10px 12px !important;
+    gap: 10px !important;
+  }
+
+  .ei-char-visual {
+    flex: 0 0 66px !important;
+    width: 66px !important;
+    height: 70px !important;
+  }
+
+  .ei-char-title {
+    font-size: 13.5px !important;
+  }
+
+  .ei-char-desc {
+    font-size: 10.5px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .ei-stage-container {
+    min-height: 480px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 12px;
+  }
+
+  .ei-central-hub {
+    display: none;
+  }
+
+  .ei-data-cables-svg {
+    display: none;
+  }
+
+  .ei-char-card {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .ei-char-visual {
+    flex: 0 0 74px;
+    width: 74px;
+    height: 78px;
+  }
+
+  .ei-char-title {
+    font-size: 14px !important;
+  }
+
+  .ei-char-desc {
+    font-size: 11px !important;
+  }
+
+  .ei-modal-benefits {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ei-iwms-card {
+    padding: 14px 12px;
+    border-radius: 20px;
+  }
+
+  .ei-iwms-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .ei-module-tabs {
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 14px;
+  }
+
+  .ei-tab-btn {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .ei-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ei-hero-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
